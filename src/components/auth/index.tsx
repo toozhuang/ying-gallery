@@ -16,7 +16,7 @@ const AuthPage = (props: { children: ReactNode }) => {
     <Layout style={{ minHeight: '100vh' }}>
       <Layout className="site-layout">
         <Content style={{ margin: '0 0' }}>
-          <div className="site-layout-background" style={{ padding: 0, minHeight: 360 }}>
+          <div className="site-layout-background" style={{ padding: 0, minHeight: '100vh' }}>
             {props.children}
           </div>
         </Content>
